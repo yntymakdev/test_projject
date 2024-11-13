@@ -1,0 +1,149 @@
+.header {
+  background: rgb(28, 28, 51);
+  width: 100%;
+  height: 105px;
+  display: flex;
+  align-items: center;
+}
+
+.minContainerHeader {
+  gap: 250px;
+  gap: clamp(10px, 2vw, 250px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.paraHeader {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+}
+
+.iconHeader {
+  display: flex;
+  align-items: center;
+}
+
+.para {
+  color: rgb(246, 246, 248);
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.iconMenu {
+  padding-left: 90px;
+  display: none;
+}
+
+@media (max-width: 1160px) {
+}
+
+@media (max-width: 850px) {
+  .para {
+    display: none;
+  }
+
+  .iconMenu {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.sideMenu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 400px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.sideMenu.open {
+  right: 0;
+}
+
+.sideMenuContent {
+  padding: 20px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.header {
+  background: rgb(28, 28, 51);
+  width: 100%;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 0.8s ease-in-out; /* Анимация для всей шапки */
+}
+
+.minContainerHeader {
+  gap: clamp(10px, 2vw, 250px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  animation: slideIn 1s ease-in-out; /* Плавное появление сдвига */
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  animation: fadeIn 0.8s ease-in-out; /* Анимация появления логотипа */
+}
+
+.paraHeader {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+  animation: fadeIn 1.2s ease-in-out; /* Плавное появление текста */
+}
+
+.iconHeader {
+  display: flex;
+  align-items: center;
+  animation: fadeIn 1.5s ease-in-out; /* Плавное появление иконок */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Невидимо */
+  }
+  to {
+    opacity: 1; /* Полностью видно */
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px); /* Элемент немного выше */
+    opacity: 0; /* Невидимо */
+  }
+  to {
+    transform: translateY(0); /* На месте */
+    opacity: 1; /* Полностью видно */
+  }
+}

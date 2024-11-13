@@ -1,0 +1,46 @@
+.carta {
+  width: 401px;
+  height: 270px;
+  background: rgb(255, 255, 255);
+}
+.free {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+.block {
+  padding: 20px;
+  h1 {
+    color: rgb(28, 28, 51);
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+  }
+}
+
+.te {
+  h1 {
+    color: rgb(87, 217, 166);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.des {
+  p {
+    color: rgb(78, 78, 101);
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+}

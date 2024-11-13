@@ -1,0 +1,84 @@
+@media (max-width: 900px) {
+  .carta {
+    width: 200px !important;
+  }
+  .image {
+    width: 233px;
+  }
+}
+@media (max-width: 700px) {
+  .carta {
+    width: 100px !important;
+  }
+  .image {
+    width: 133px;
+  }
+  .data {
+    display: block !important;
+  }
+}
+.dataContainer {
+  padding-top: 90px;
+}
+
+.carta {
+  width: 333px;
+  background: rgb(255, 255, 255);
+  height: 365px;
+  text-align: center;
+}
+
+.textdata {
+  p {
+    color: rgb(28, 28, 51);
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+  }
+}
+.main {
+  padding: 17px;
+}
+.pData {
+  p {
+    padding-top: 8px;
+    color: rgb(78, 78, 101);
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+}
+.box {
+  //   display: flex;
+}
+.dollar {
+  padding-top: 8px;
+  color: rgb(28, 28, 51);
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+.carta {
+  //   display: flex;
+  h1 {
+    cursor: pointer;
+    padding-top: 9px;
+    color: rgb(87, 217, 166);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}

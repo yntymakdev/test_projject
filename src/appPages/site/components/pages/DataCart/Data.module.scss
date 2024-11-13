@@ -1,0 +1,150 @@
+.dataContainer {
+  padding-top: 90px;
+  padding-bottom: 200px;
+}
+@media (max-width: 1160px) {
+  .carta {
+    width: clamp(
+      200px,
+      50%,
+      233px
+    ) !important; /* Минимум: 200px, гибкое значение: 50% ширины экрана, максимум: 233px */
+    height: clamp(
+      200px,
+      50%,
+      265px
+    ) !important; /* Минимум: 200px, гибкое значение: 20% ширины экрана, максимум: 265px */
+  }
+  .image {
+    width: 235px;
+  }
+}
+@media (max-width: 840px) {
+  .carta {
+    width: clamp(
+      233px,
+      50%,
+      233px
+    ) !important; /* Минимум: 200px, гибкое значение: 50% ширины экрана, максимум: 233px */
+    height: clamp(
+      200px,
+      50%,
+      265px
+    ) !important; /* Минимум: 200px, гибкое значение: 20% ширины экрана, максимум: 265px */
+  }
+  .data {
+    text-align: center;
+    gap: clamp(10px, 5%, 30px) !important; /* Минимум: 10px, гибкое значение: 5% ширины экрана, максимум: 30px */
+    align-items: center !important;
+    justify-content: center !important;
+    display: block !important;
+  }
+}
+@media (max-width: 795px) {
+  .carta {
+    margin-left: 230px;
+
+    width: clamp(
+      233px,
+      50%,
+      233px
+    ) !important; /* Минимум: 200px, гибкое значение: 50% ширины экрана, максимум: 233px */
+    height: clamp(
+      200px,
+      50%,
+      265px
+    ) !important; /* Минимум: 200px, гибкое значение: 20% ширины экрана, максимум: 265px */
+  }
+
+  .block {
+    display: block;
+    width: clamp(200px, 100%, 400px);
+    height: clamp(200px, 50%, 400px);
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .carta {
+    margin-left: 130px;
+
+    width: clamp(
+      233px,
+      50%,
+      233px
+    ) !important; /* Минимум: 200px, гибкое значение: 50% ширины экрана, максимум: 233px */
+    height: clamp(
+      200px,
+      50%,
+      265px
+    ) !important; /* Минимум: 200px, гибкое значение: 20% ширины экрана, максимум: 265px */
+  }
+
+  .block {
+    display: block; /* Оставляем блочным элементом */
+    width: clamp(200px, 50%, 400px); /* Ширина с использованием clamp() */
+    height: clamp(200px, 50%, 400px); /* Высота с использованием clamp() */
+    background: #f0f0f0; /* Пример цвета фона */
+    border: 1px solid #ccc; /* Пример границы */
+    text-align: center; /* Центрирование текста внутри */
+  }
+}
+
+.carta {
+  width: 333px;
+  background: rgb(255, 255, 255);
+  height: 365px;
+}
+
+.textdata {
+  p {
+    color: rgb(28, 28, 51);
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+  }
+}
+.main {
+  padding: 17px;
+}
+.pData {
+  p {
+    padding-top: 8px;
+    color: rgb(78, 78, 101);
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+}
+
+.dollar {
+  padding-top: 8px;
+  color: rgb(28, 28, 51);
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+.carta {
+  h1 {
+    cursor: pointer;
+    padding-top: 9px;
+    color: rgb(87, 217, 166);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}

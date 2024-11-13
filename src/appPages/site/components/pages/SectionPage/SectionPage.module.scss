@@ -1,0 +1,52 @@
+.minContainer {
+  padding-top: 50px;
+}
+.section_descr button {
+  border-radius: 4px;
+
+  background: rgb(87, 217, 166);
+  color: rgb(28, 28, 51);
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  width: 160px;
+  height: 40px;
+  padding: 7px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  text-align: center !important;
+  justify-content: center;
+  align-items: center !important;
+  text-transform: uppercase;
+}
+
+.section_down {
+  h1 {
+    color: rgb(246, 246, 248);
+    font-family: Source Sans Pro;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
+
+.section {
+  p {
+    color: rgb(246, 246, 248);
+    font-family: Source Sans Pro;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    flex-direction: column; /* Переводим хедер в колонку */
+    padding: 10px;
+  }
+
+  .minContainerHeader {
+    flex-direction: column; /* Переводим элементы в колонку */
+    gap: 20px; /* Уменьшаем промежутки */
+  }
+
+  .logoWrapper {
+    justify-content: center;
+  }
+
+  .paraHeader {
+    flex-direction: column; /* Переводим параграфы в колонку */
+    gap: 10px;
+  }
+
+  .para {
+    font-size: 16px; /* Уменьшаем размер шрифта */
+    margin: 0; /* Убираем отступы */
+  }
+}
+
+/* Для мобильных устройств */
+@media (max-width: 480px) {
+  .header {
+    height: auto;
+    padding: 10px 20px; /* Добавляем паддинги */
+  }
+
+  .minContainerHeader {
+    gap: 10px; /* Меньше отступов между элементами */
+  }
+
+  .paraHeader {
+    gap: 5px; /* Уменьшаем промежутки */
+  }
+
+  .para {
+    font-size: 14px; /* Еще меньше шрифт */
+  }
+}
+
+/* Для экранов, более широких чем 768px */
+@media (min-width: 769px) {
+  .minContainerHeader {
+    gap: 180px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+}

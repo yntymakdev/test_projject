@@ -1,0 +1,29 @@
+.review {
+  background: rgb(87, 217, 166);
+  height: 100%;
+  padding: 100px;
+}
+
+.review_text {
+  p {
+    color: rgb(28, 28, 51);
+    font-family: Source Sans Pro;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
+
+.p {
+  p {
+    color: rgb(78, 78, 101);
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+}

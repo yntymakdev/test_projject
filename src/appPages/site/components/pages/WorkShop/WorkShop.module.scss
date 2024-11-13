@@ -1,0 +1,52 @@
+.WorkShop {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5d6;
+}
+
+.free {
+  h1 {
+    color: rgb(28, 28, 51);
+    font-family: Source Sans Pro;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
+
+.workshop_des {
+  p {
+    color: rgb(78, 78, 101);
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  button {
+    border-radius: 4px;
+
+    background: rgb(87, 217, 166);
+    color: rgb(28, 28, 51);
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    width: 160px;
+    height: 40px;
+    padding: 7px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center !important;
+    text-transform: uppercase;
+
+    display: block;
+    margin: 0 auto;
+  }
+}
